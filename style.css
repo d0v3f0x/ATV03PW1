@@ -21,19 +21,25 @@ header{
 #introducao{
 
     background:linear-gradient(
-    hsl(225, 100%, 50%) 20%,
-    white)30%;
+    hsl(225, 100%, 50%) 70%,
+    white);
     }
 
-    .imagem{
+    .container{
         display: grid;
     place-items: center;
     height: 50vh;
+    justify-content: center;
     }
 
-    input{
+        input{
         background-color: rgb(80, 135, 253);
-        text-align: center;  
+        color: white;
+        text-align: center; 
+        border: 2px solid; 
+        border-radius: 20px;
+        padding: 10px;
+        
     }
         
 }
