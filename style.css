@@ -32,14 +32,46 @@ header{
     justify-content: center;
     }
 
-        input{
-        background-color: rgb(80, 135, 253);
-        color: white;
-        text-align: center; 
-        border: 2px solid; 
-        border-radius: 20px;
-        padding: 10px;
-        
-    }
+    input{
+    background-color: rgb(80, 135, 253);
+    color: white;
+    text-align: center; 
+    border: 2px solid; 
+    border-radius: 20px;
+    padding: 10px;
         
 }
+
+#recursos{
+    
+       display: flex;
+       justify-content: left;
+        border: 2px; solid hsl(0, 100%, 100%);
+        padding: 20px;
+        border-radius: 10px;
+        margin: 20px;
+    
+}
+    .colorful-image{
+        width: 1400px; 
+        height: auto; 
+        animation: colorChange 50s infinite; 
+        margin-top: 100px;
+    }
+    
+    @keyframes colorChange{
+        0% { filter: hue-rotate(0deg); }
+        33% { filter: hue-rotate(120deg); }
+        66% { filter: hue-rotate(240deg); }
+        100% { filter: hue-rotate(0deg); }
+    }
+    .texto{
+        position: absolute;
+        max-width: 400px;
+        margin-top: 300px;
+        margin-left: 900px;
+        font-size: 20px;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+
+            
